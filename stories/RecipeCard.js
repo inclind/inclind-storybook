@@ -1,6 +1,5 @@
-import {
-  html
-} from 'lit-html';
+import { html } from 'lit-html';
+
 import './recipecard.css';
 
 /**
