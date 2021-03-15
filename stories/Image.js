@@ -12,7 +12,6 @@ export const Image = ({
 }) => {
 
   return html `
-  <iron-image style="width:400px; height:400px;" placeholder="data:image/gif;base64,..."
-  sizing="cover" preload fade src="${imgSrc}"></iron-image>
+  <iron-image sizing="cover" preload fade src="${imgSrc}"></iron-image>
   `;
 };
