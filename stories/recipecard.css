@@ -1,0 +1,28 @@
+.recipe-card {
+  border: solid thin whitesmoke;
+  width: 33%;
+  display: inline-block;
+}
+
+.recipe-card--small {
+  width: 20%;
+}
+
+.recipe-card img {
+  max-height: 220px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.recipe-card--small img {
+  max-height: 140px;
+}
+
+.recipe-card h2 {
+  font-family: Arial;
+  color: gray;
+}
+
+.card-content {
+  padding: 1.5rem;
+}
